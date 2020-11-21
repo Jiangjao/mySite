@@ -1,6 +1,4 @@
-## 这是一个用户登录和注册教学项目
-## 这是一个可重用的登录和注册APP
-## 该项目教程发布在www.liujiangblog.com
+## 这是一个用户登录和注册教学项目   这是一个可重用的登录和注册APP  该项目教程发布在www.liujiangblog.com，个人已经更改
 
 ## 简单的使用方法：
 
@@ -11,9 +9,9 @@
 运行migrate命令，创建数据库和数据表
 运行python manage.py runserver启动服务器
 
-
+----------------------------
 路由设置：
-
+----------------------
 
 from django.contrib import admin
 from django.urls import path, include
@@ -28,18 +26,6 @@ urlpatterns = [
     path('confirm/', views.user_confirm),
     path('captcha/', include('captcha.urls'))   # 增加这一行
 ]
-   mysite - User login and register system
+mysite - User login and register system
 
-   Copyright 2019- www.liujiangblog.com
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+Copyright 2019- jayjiao
