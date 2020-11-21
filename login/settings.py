@@ -127,9 +127,9 @@ STATIC_URL = '/static/'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = '918718278@qq.com'
+EMAIL_HOST_USER = ''
 # IMAP/SMTP服务..
-EMAIL_HOST_PASSWORD = 'avlwkmbjauyubfii'
+EMAIL_HOST_PASSWORD = ''   #邮箱服务，自我设置吧。
 
 # 注册有效期天数
 CONFIRM_DAYS = 7
